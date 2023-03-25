@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/responsive.css">
+    <title>Sobre Brian Ribeiro</title>
+</head>
+<body class="dark_background">
+    <header class="header_box">
+        <div>
+            <a href="./index.html"><h1 class="header">Brian Ribeiro</h1></a>
+            <p class="header">Desenvolvimento Web e UX Design</p>
+        </div>
+        <button class="menu_button"><img id="button_status" src="./images/menu.png" alt="Menu principal" onclick="toggleMenu()"></button>
+        <nav class="header pages">
+            <a class="header" href="./projects.html">Projetos</a>
+            <a class="header" href="./resume.html">Currículo</a>
+            <a class="header" href="./about.html">Sobre mim</a>
+            <a class="header" href="./contact.html">Contato</a>
+        </nav>
+    </header>
+
+    <main id="about">
+        <h1>Sobre mim</h1>
+        <section class="content_background">
+            <section class="about_description">
+                <img src="./images/profile_image.jpg" alt="Foto de Brian Ribeiro">
+                <p id="about_first_p">Olá! Fico feliz que tenha se interessado em me conhecer melhor!</p>
+                <p>Meu nome é Brian, sou Desenvolvedor Front-End e Designer de UX.</p>
+                <p>Resido numa pequena cidade do interior de São Paulo, chamada Altinópolis.</p>
+                <p>Estudante ávido, aprendiz rápido, detalhista, bom raciocínio lógico. Confio totalmente
+                    na minha habilidade de superar desafios e aprender com eles, sempre procurando
+                    melhorar meu conhecimento.</p>
+                <p>Atualmente curso o segundo semestre de Análise e Desenvolvimento de Sistemas à distância pela Unifran.
+                    Além disso, realizo cursos complementares para agregar em meu conhecimento sobre desenvolvimento,
+                    programação e design.</p>
+                <p id="about_last_p">Amo a tecnologia e a forma que ela facilita as nossas vidas. Valorizo muito a curiosidade e acredito que um
+                    bom relacionamento e a confiança são fundamentais para que os melhores resultados sejam alcançados.</p>
+            </section>
+        </section>
+
+        <h1>Formação e Certificação</h1>
+        <section class="content_background" id="about_background">
+            <section class="about_certification_menu">
+                <button onclick="currentDropdown(1)" class="drop_button" id="certification_button_1"><h2>Desenvolvimento e Programação</h2><img src="./images/expand_dark.png"></button>
+                <div class="about_certification_content dropdown" id="certification_1">
+                    <div>
+                        <h3>Análise e Desenvolvimento de Sistemas</h3>
+                        <p>Unifran</p>
+                        <p>Cursando o 3º semestre</p>
+                    </div>
+                    <div>
+                        <h3>Javascript básico</h3>
+                        <p>Curso em Vídeo</p>
+                        <p>23/04/2022</p>
+                    </div>
+                    <div>
+                        <h3>MySQL</h3>
+                        <p>Curso em Vídeo</p>
+                        <p>27/02/2023</p>
+                    </div>
+                    <div>
+                        <h3>HTML5 e CSS3 Módulo 3 de 5</h3>
+                        <p>Curso em Vídeo</p>
+                        <p>23/04/2022</p>
+                    </div>
+                    <div>
+                        <h3>HTML5 e CSS3 Módulo 2 de 5</h3>
+                        <p>Curso em Vídeo</p>
+                        <p>03/03/2022</p>
+                    </div>
+                    <div>
+                        <h3>HTML5 e CSS3 Módulo 1 de 5</h3>
+                        <p>Curso em Vídeo</p>
+                        <p>19/02/2022</p>
+                    </div>
+                </div>
+            </section>
+            <section class="about_certification_menu">
+                <button onclick="currentDropdown(2)" class="drop_button" id="certification_button_2"><h2>UX Design</h2><img src="./images/expand_dark.png"></button>
+                <div class="about_certification_content dropdown" id="certification_2">
+                    <div>
+                        <h3>Google UX Design</h3>
+                        <p>Coursera / Google</p>
+                        <p>03/02/2023</p>
+                    </div>
+                </div>
+            </section>
+            <section class="about_certification_menu">
+                <button onclick="currentDropdown(3)" class="drop_button" id="last_button"><h2>Idiomas</h2><img src="./images/expand_dark.png"></button>
+                <div class="about_certification_content dropdown" id="certification_3">
+                    <div>
+                        <h3>EF SET Certificate C2 Proficiente</h3>
+                        <p>EF Education First</p>
+                        <p>12/09/2022</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer_box">
+        <p class="footer">Entre em contato! Você pode me encontrar através do email <a href="mailto:brian_ribeiro@outlook.com" target="_blank"><strong>brian_ribeiro@outlook.com</strong></a></p>
+
+        <p>
+            <a href="https://www.linkedin.com/in/brian-ribeiro-developer/" target="_blank"><img class="footer_img" src="images/logo_linkedin.png" alt="LinkedIn"></a>
+            <a href="https://api.whatsapp.com/send?phone=5516993326271" target="_blank"><img class="footer_img" src="images/logo_whatsapp.png" alt="WhatsApp"></a>
+            <a href="mailto:brian_ribeiro@outlook.com" target="_blank"><img class="footer_img" src="images/logo_email.png" alt="Email"></a>
+        </p>
+    </footer>
+
+    <script src="./scripts/script_about.js"></script>
+    <script src="./scripts/script_menu.js"></script>
+
+</body>
+</html>

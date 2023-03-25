@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/responsive.css">
+    <title>Portfólio Brian Ribeiro</title>
+</head>
+<body>
+    <header class="header_box">
+        <div>
+            <a href="./index.html"><h1 class="header">Brian Ribeiro</h1></a>
+            <p class="header">Desenvolvimento Web e UX Design</p>
+        </div>
+        <button class="menu_button"><img id="button_status" src="./images/menu.png" alt="Menu principal" onclick="toggleMenu()"></button>
+        <nav class="header pages">
+            <a class="header" href="./projects.html">Projetos</a>
+            <a class="header" href="./resume.html">Currículo</a>
+            <a class="header" href="./about.html">Sobre mim</a>
+            <a class="header" href="./contact.html">Contato</a>
+        </nav>
+    </header>
+    
+    <main id="index">
+        <section class="slideshow-container">
+            <div class="mySlides fade">
+                <p class="project_class">UX Design</p>
+                <a href="https://www.figma.com/proto/optw9xEgUrWz0oGvXtul1m/App-Folk-Metal?node-id=386-2708&scaling=scale-down&page-id=386%3A1163&starting-point-node-id=386%3A2708" target="_blank"><img src="./images/background_einherjar.jpg" alt="Projeto Einherjar" style="width: 100%;"></a>
+            </div>
+            <div class="mySlides fade">
+                <p class="project_class">Desenvolvimento Web</p>
+                <a href="https://brianribeiro.github.io/incursao_mitologica/" target="_blank"><img src="./images/background_incursao.jpg" alt="Projeto Incursão Mitológica" style="width: 100%;"></a>
+            </div>
+            <div class="mySlides fade">
+                <p class="project_class">UX Design</p>
+                <a href="https://www.figma.com/proto/dGWNdNqAqhzqYMU28FFnB3/Untitled?node-id=59-1840&scaling=scale-down&page-id=58%3A871&starting-point-node-id=59%3A1840" target="_blank"><img src="./images/background_petlovers.jpg" alt="Projeto Petlovers" style="width: 100%;"></a>
+            </div>
+            <div class="mySlides fade">
+                <p class="project_class">Desenvolvimento Web</p>
+                <a href="https://brianribeiro.github.io/Portfolio/" target="_blank"><img src="./images/background_portfolio.jpg" alt="Portfólio" style="width: 100%;"></a>
+            </div>
+            <div class="mySlides fade">
+                <p class="project_class">UX Design</p>
+                <a href="https://www.figma.com/proto/zPkVcfbPYHVmg45bGCBqk8/Vizinhan%C3%A7a_Unida?node-id=69-655&scaling=scale-down&page-id=69%3A48&starting-point-node-id=69%3A655" target="_blank"><img src="./images/background_vizinhanca_unida.jpg" alt="Projeto Vizinhança Unida" style="width: 100%;"></a>
+            </div>
+            <div class="mySlides fade">
+                <p class="project_class">Desenvolvimento Web</p>
+                <a href="https://brianribeiro.github.io/Projeto_Redes/" target="_blank"><img src="./images/background_redes.jpg" alt="Projeto Redes" style="width: 100%;"></a>
+            </div>
+        </section>
+        <section class="project_slides_counter">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </section>
+    </main>
+    <footer class="footer_box">
+        <p class="footer">Entre em contato! Você pode me encontrar através do email <a href="mailto:brian_ribeiro@outlook.com" target="_blank"><strong>brian_ribeiro@outlook.com</strong></a></p>
+
+        <p>
+            <a href="https://www.linkedin.com/in/brian-ribeiro-developer/" target="_blank"><img class="footer_img" src="images/logo_linkedin.png" alt="LinkedIn"></a>
+            <a href="https://api.whatsapp.com/send?phone=5516993326271" target="_blank"><img class="footer_img" src="images/logo_whatsapp.png" alt="WhatsApp"></a>
+            <a href="mailto:brian_ribeiro@outlook.com" target="_blank"><img class="footer_img" src="images/logo_email.png" alt="Email"></a>
+        </p>
+    </footer>
+
+    <script src="./scripts/script_index.js"></script>
+    <script src="./scripts/script_menu.js"></script>
+    
+</body>
+</html>
