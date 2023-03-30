@@ -73,7 +73,8 @@ header {
     z-index: 1;
     margin-bottom: 0px;
     background-color: var(--color-darkest);
-    width: 100vw;
+    position: relative;
+    width: 100%;
     text-align: left;
 }
 
@@ -108,8 +109,8 @@ a.header {
     font-weight: bold;
     margin: 10px 20px;
     padding: 7px 20px;
-    border-radius: 20px;
-    width: 100vw;
+    position: relative;
+    width: 100%;
 }
 
 a.header:hover {
@@ -120,7 +121,8 @@ a.header:hover {
 
 footer {
     background-color: var(--color-darkest);
-    width: 100vw;
+    position: relative;
+    width: 100%;
     text-align: center;
     margin-top: 50px;
 }
@@ -166,7 +168,8 @@ img.footer_img {
 */
 /*-----INDEX BELOW-----*/
 .slideshow-container {
-    width: 100vw;
+    position: relative;
+    width: 100%;
     margin-top: 20px;
     cursor: pointer;
 }
@@ -261,6 +264,7 @@ img.footer_img {
 
 .project_image > p {
     padding-bottom: 50px;
+    font-weight: bold;
 }
 
 .projects_container {
@@ -294,8 +298,8 @@ img.footer_img {
     margin: -20px 10px 30px 10px;
     font-size: 1.1em;
     font-weight: bold;
-    color: var(--color-darkest);
-    background-color: var(--color-whitest);
+    color: var(--color-whitest);
+    background-color: var(--color-darkest);
     padding: 6px 20px;
     border: 3px solid var(--color-darkest);
     border-radius: 20px;
@@ -303,9 +307,8 @@ img.footer_img {
 }
 
 .project_links:hover {
-    color: var(--color-whitest);
-    background-color: var(--color-darkest);
-    box-shadow: var(--global-shadow);
+    color: var(--color-darkest);
+    background-color: var(--color-whitest);
     transition: 0.5s ease-in-out;
 }
 /*-----PROJECTS ABOVE-----*/
@@ -328,7 +331,8 @@ img.footer_img {
 }
 
 .resume_page > img {
-    width: 92vw;
+    position: relative;
+    width: 100%;
     border-radius: 20px 20px 0px 0px;
     margin: 0px 0px 20px 0px;
 }
@@ -342,7 +346,7 @@ img.footer_img {
     margin: 20px 0px 30px 0px;
     font-size: 1.1em;
     font-weight: bold;
-    background-color: var(--color-whitest);
+    background-color: var(--color-darkest);
     padding: 6px 0px;
     border: 3px solid var(--color-darkest);
     border-radius: 20px;
@@ -351,17 +355,17 @@ img.footer_img {
 
 .resume_page > button:hover {
     cursor: pointer;
-    background-color: var(--color-darkest);
+    background-color: var(--color-whitest);
     transition: 0.5s ease-in-out;
 }
 
 .resume_page > button > a {
-    color: var(--color-darkest);
+    color: var(--color-whitest);
     padding: 6px 20px;
 }
 
 .resume_page > button > a:hover {
-    color: var(--color-whitest);
+    color: var(--color-darkest);
     padding: 6px 20px;
 }
 /*-----RESUME ABOVE-----*/
@@ -532,7 +536,7 @@ a.contact_link {
 }
 
 img.contact_img {
-    width: 30px;
+    width: 35px;
     padding: 0px 10px 0px 0px;
 }
 
@@ -564,7 +568,7 @@ img.contact_img {
 .contact_align {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .contact_container {
@@ -820,7 +824,8 @@ img.contact_img {
     */
     /*-----INDEX BELOW-----*/
     main#index {
-        width: 100vw;
+        position: relative;
+        width: 100%;
     }
     
     .slideshow-container {
@@ -1112,6 +1117,7 @@ img.contact_img {
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
+        height: auto;
     }
 
     .contact_container_1 {
@@ -1136,7 +1142,7 @@ img.contact_img {
 
     #iframe_map > iframe {
         width: 80vw;
-        height: 25vh;
+        height: 40vh;
     }
 
     .contact_superior_container {
@@ -1192,7 +1198,8 @@ img.contact_img {
     */
     /*-----INDEX BELOW-----*/
     main#index {
-        width: 100vw;
+        position: relative;
+        width: 100%;
     }
     
     .slideshow-container {
@@ -1286,7 +1293,7 @@ img.contact_img {
     }
 
     .contact_container {
-        height: 85vh;
+        height: auto;
     }
 
     /*-----CONTACT ABOVE-----*/
@@ -1317,6 +1324,7 @@ img.contact_img {
         font-size: 1.3em;
         margin: 10px 10px;
         padding: 5px 15px;
+        border-radius: 20px;
     }
 
     footer {
@@ -1767,7 +1775,7 @@ img.contact_img {
     
     #iframe_map > iframe {
         width: 40vw;
-        height: 25vh;
+        height: 40vh;
     }
     /*-----CONTACT ABOVE-----*/
 }
