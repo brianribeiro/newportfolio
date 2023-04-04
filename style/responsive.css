@@ -97,7 +97,8 @@ nav.pages{
     flex-direction: column;
     text-align: right;
     position: relative;
-    margin-right: 50px;
+    padding-right: 80px;
+    width: 100%;
 }
 
 p.header {
@@ -182,8 +183,10 @@ img.footer_img {
     box-shadow: var(--global-shadow);
 }
 
-.mySlides > a > img {
+.mySlides > a > picture > img {
     height: 63vh;
+    object-fit: cover;
+    object-position: center;
 }
 
 .project_slides_counter {
@@ -640,7 +643,7 @@ img.contact_img {
     }
 
     nav.pages{
-        margin-right: 70px;
+        padding-right: 100px;
     }
 
     p.header {
@@ -791,7 +794,7 @@ img.contact_img {
     }
     
     nav.pages{
-        margin-right: 240px;
+        padding-right: 140px;
     }
     
     p.header {
@@ -834,7 +837,7 @@ img.contact_img {
         margin-top: 60px;
     }
 
-    .mySlides > a > img {
+    .mySlides > a > picture > img {
         border-radius: 20px 0px 20px 20px;
     }
     
@@ -1164,7 +1167,7 @@ img.contact_img {
     }
     
     nav.pages{
-        margin-right: 270px;
+        padding-right: 165px;
     }
     
     p.header {
@@ -1313,7 +1316,8 @@ img.contact_img {
 
     nav.pages{
         display: inline;
-        margin-right: 0px;
+        padding-right: 0px;
+        width: auto;
     }
 
     p.header {
