@@ -2016,3 +2016,11 @@ img.contact_img {
         height: 35vh;
     }
 }
+
+@media only screen and (min-width: 1920px) {
+
+    #fixedFooter > footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
